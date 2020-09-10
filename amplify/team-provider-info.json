@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-proteinpowder-dev-143156-authRole",
+      "UnauthRoleArn": "arn:aws:iam::694770933261:role/amplify-proteinpowder-dev-143156-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::694770933261:role/amplify-proteinpowder-dev-143156-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-proteinpowder-dev-143156-deployment",
+      "UnauthRoleName": "amplify-proteinpowder-dev-143156-unauthRole",
+      "StackName": "amplify-proteinpowder-dev-143156",
+      "StackId": "arn:aws:cloudformation:us-east-2:694770933261:stack/amplify-proteinpowder-dev-143156/e91faa10-f393-11ea-83dd-0a2a4cc681bc",
+      "AmplifyAppId": "d2axs8gp4jsgn5"
+    },
+    "categories": {
+      "auth": {
+        "proteinpowder560d876d": {}
+      }
+    }
+  }
+}
