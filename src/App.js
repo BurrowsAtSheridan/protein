@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
-
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import {listPosts} from './graphql/queries';
+import {createPost as CreatePostMutation} from './graphql/mutations'; 
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,7 @@ function App() {
           <h1>Hello from AWS</h1>
           <h2>I have given Auth!</h2>
       </header>
-      <AmplifySignOut>Sign out here</AmplifySignOut>
+      <AmplifySignOut/>
     </div>
   );
 }
